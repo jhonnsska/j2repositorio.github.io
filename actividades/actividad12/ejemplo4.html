@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Understanding color 2</title>
+<style type="tex/css">
+body { background-color: rgb(200,200,200);
+color: white; padding:20px;
+font-family: Arial, vedana, sans-serif;}
+h1 { background-color :darkcyan; padding:inherit;}
+.mytable { background-color:purple;border:1px solid;}
+.mytable th  {color:#ee3e80 !important;}
+.mytable td#uno { background-color:#66cdaa; color:blue;}
+.mytable td#dos { background-color:rgp(102,205,170); color:blue;}
+.mytable td#tres { background-color:MediumAquaMarine; color:red;}
+</style>
+</head>
+<body>
+<h1>Entendiendo el color 2</h1>
+<table class="mytable">
+<tr>
+<th>Valores RGB</th><th>Codigo Hexadecimal</th><th>Nombre de colores</th>
+</tr>
+<tr>
+<td>Los valores de rojo, verde y azul se expresan como numeros entre 0 y 255.</td>
+<td>Los valores hexadecimales representan valores para rojo, verde y azul en codigo Hexadecimal.</td>
+<td>Los valores se representan mendiante nombres predefinidos. Sin embargo, son muy limitados en número</td>
+</tr>
+<tr>
+<td id="uno">Celda rgb</td><td id="dos">Celda hex</td><td id="tres">Celda Name</td>
+</tr>
+<tr>
+<td>Este color se compone de los siguientes valores:<br/> 102 rojo<br/> 205 verde<br/> 170 azul</td>
+<td>El valor del rojo, 102, se expresa como 66 en codigo hexadecimal.<br/>
+el 205 del verde se expresa como cd <br/> y el 170 del azul equivale a aa.</td>
+<td>Hay 147 nombres de color soportados por los navegadores (este color este
+MediumAquaMarine) . la mayoria considera que esto es una paleta de colores
+limitados, y es dificil recordar el nombre de cada uno de los colores </td>
+</tr>
+</table>
+</body>
+</html>
